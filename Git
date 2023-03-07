@@ -1,0 +1,27 @@
+Git Repository contains Files, History, Config
+Git Repository contains .git directory
+
+Stages:
+working directory - lives files before adding, untracked area.
+Staging Area - Git starts tracking / after adding / before commit
+local repo - where git saves everything
+Git Hub - remote repo
+
+Two types of Version control system.
+1. CVCS(Centralised Version control system)
+2. DVCS(Distributed Version control system)
+
+Configure the user details:
+git config --global user.name "shiva kumar"
+git config --global user.email "allamshivakumar009@gmail.com"
+
+To list the config:
+git config --list
+
+git diff --> shows the differnce bw last commit and the present state of the files
+git status
+git log --> to get logs of the commits
+git log --author "shiva kumar"
+
+git hub is a remote Repository.
+
