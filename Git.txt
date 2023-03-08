@@ -43,6 +43,9 @@ commands - git reset --hard <commit id>
          - git reset soft removes only the commit id and moves the file to staging directory.
          - git reset should be used for changes in local repo only.
 
-
-git revert
+Git revert:
+-----------
+commands - 
+         - git revert adds a new commit at the end of the chain to revert the changes.
+         - if the changes already pushed to github it is recommendable to use revert
 
