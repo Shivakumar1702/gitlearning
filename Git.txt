@@ -51,3 +51,6 @@ commands - git revert <commit id>
 
          git revert is used to revert the changes once the code is pushed to remote Repository
 
+git diff <filename> --> the change in the file between staging and the working directory for specific file
+git diff --> the change between staging and the working directory (all the files
+)
