@@ -45,4 +45,9 @@ commands - git reset --hard <commit id>
 
 
 git revert
+-----------
+commands - git revert <commit id>
+         - git push origin branchname
+
+         git revert is used to revert the changes once the code is pushed to remote Repository
 
