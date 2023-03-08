@@ -49,5 +49,3 @@ commands -
          - git revert adds a new commit at the end of the chain to revert the changes.
          - if the changes already pushed to github it is recommendable to use revert
 
-         revert is used for reverting the changes in remote repo
-
