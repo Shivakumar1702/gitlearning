@@ -44,5 +44,5 @@ commands - git reset --hard <commit id>
          - git reset should be used for changes in local repo only.
 
 
-
+git revert
 
