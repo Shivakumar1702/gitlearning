@@ -33,6 +33,16 @@ like - git add remote origin https://github.com/Shivakumar1702/gitlearning.git
  git remote -v --> to check the remote Repository
 - Git pull <repo nick name> <brach name>
 
+Git reset
+----------
+commands - git reset --hard <commit id>
+         - git reset hard removes the commit id and the changes made
+         - git reset should be used for changes in local repo only.
+
+         - git reset --soft <commit id>
+         - git reset soft removes only the commit id but not the file changes
+         - git reset should be used for changes in local repo only.
 
 
+git revert
 
