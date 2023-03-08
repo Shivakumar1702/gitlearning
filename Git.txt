@@ -44,6 +44,6 @@ commands - git reset --hard <commit id>
          - git reset soft removes only the commit id but not the file changes
          - git reset should be used for changes in local repo only.
 
-
+checking git revert
 
 
