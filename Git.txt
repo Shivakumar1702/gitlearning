@@ -22,6 +22,7 @@ git diff --> shows the differnce bw last commit and the present state of the fil
 git status
 git log --> to get logs of the commits
 git log --author "shiva kumar"
+git log --oneline
 
 git hub is a remote Repository.
 
@@ -53,3 +54,4 @@ commands - git revert <commit id>
 
 git diff <filename> --> the change in the file between staging and the working directory for specific file
 git diff --> the change between staging and the working directory (all the files)
+git diff <commit id 1> <commit id 2> --> differnce between two commits
