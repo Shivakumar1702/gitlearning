@@ -28,7 +28,6 @@ git hub is a remote Repository.
 SSH keys are used to authenticate while pushing the changes to github.
 
 How to initialise a clone a repo in local
-----------------------------------------
 - Git add remote <repo nick name> <github repo url>
 like - git add remote origin https://github.com/Shivakumar1702/gitlearning.git
  git remote -v --> to check the remote Repository
@@ -44,6 +43,6 @@ commands - git reset --hard <commit id>
          - git reset soft removes only the commit id but not the file changes
          - git reset should be used for changes in local repo only.
 
-checking git revert
+
 
 
