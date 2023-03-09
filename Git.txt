@@ -63,4 +63,9 @@ rename branch -- git branch -m <old name> <new name>
 delete branch -- git branch -d <branch name>
 merge branch -- checkout to the main branch -- git merge <branch name>
 
-testing
+git stash - to temporarily save the changes, to save the incomplete code
+git stash list - to list the stashed changes
+git stash apply - to remove the files from stash
+git stash drop - To remove the files stash list after the files are removed from the stash
+To stash the untracked files - git stash -a
+git stash pop - removes the files from stash and also removes the file from queue.
